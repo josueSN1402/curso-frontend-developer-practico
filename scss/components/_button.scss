@@ -1,11 +1,24 @@
-.primary-button {
-    background-color: var(--hospital-green);
+.btn {
     border-radius: 8px;
-    border: none;
-    color: var(--white);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+
+    &-primary {
+        background-color: var(--hospital-green);
+        border: none;
+        color: var(--white);
+    }
+
+    &-secondary {
+        background-color: var(--white);
+        border: 1px solid var(--hospital-green);
+        color: var(--hospital-green);
+
+        @media (max-width: 640px) {
+            margin-top: 70px;
+        }
+    }
 }
