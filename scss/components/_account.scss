@@ -1,0 +1,15 @@
+.title-account {
+    margin-bottom: 36px;
+    text-align: start;
+}
+
+@media (max-width: 640px) {
+    .form-account-container {
+        height: 100%;
+    }
+
+    .form-account {
+        height: 100%;
+        justify-content: space-between;
+    }
+}
