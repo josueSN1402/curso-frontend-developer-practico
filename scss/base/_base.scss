@@ -6,3 +6,11 @@ body {
     font-size: 62.5%;
     font-family: var(--font-primary);
 }
+
+ul,
+ol,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
