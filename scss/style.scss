@@ -3,6 +3,8 @@
 @import './base/base';
 @import './abstracts/mixins';
 
+@import './layout/header';
+
 @import './components/login';
 @import './components/password-recovery';
 
@@ -12,4 +14,4 @@
 
 @import './components/button';
 
-@import './components/home'
+@import './components/home';
