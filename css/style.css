@@ -6,6 +6,7 @@
   --text-input-field: #f7f7f7;
   --dark: #232830;
   --hospital-green: #acd9b2;
+  --btn-primary-hover: #5ab865;
   --sm: 14px;
   --md: 16px;
   --lg: 18px;
@@ -46,6 +47,11 @@ body {
 
 .m-0-a {
   margin: 0 auto;
+}
+
+.tr-bc-3s {
+  transition-duration: 0.3s;
+  transition-property: background-color;
 }
 
 .login {
@@ -150,12 +156,6 @@ body {
   text-align: start;
 }
 
-.input-name,
-.input-email,
-.input-password {
-  margin-bottom: 22px;
-}
-
 @media (max-width: 640px) {
   .form-account-container {
     height: 100%;
@@ -165,6 +165,18 @@ body {
     justify-content: space-between;
   }
 }
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
+
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  margin: 8px 0 32px 0;
+}
+
 .btn {
   border-radius: 8px;
   width: 100%;
@@ -177,6 +189,9 @@ body {
   background-color: var(--hospital-green);
   border: none;
   color: var(--white);
+}
+.btn-primary:hover {
+  background-color: var(--btn-primary-hover);
 }
 .btn-secondary {
   background-color: var(--white);
