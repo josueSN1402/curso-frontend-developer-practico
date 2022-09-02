@@ -105,6 +105,41 @@ a {
   font-size: var(--sm);
 }
 
+.mobile-menu {
+  padding: 2em 4em;
+}
+.mobile-menu a {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.mobile-menu ul {
+  padding: 0;
+  margin: 2.8em 0 0;
+}
+.mobile-menu ul:first-child {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul:last-child {
+  margin-top: 8em;
+}
+.mobile-menu ul:last-child li {
+  margin: 1.2em auto 0;
+}
+.mobile-menu ul li {
+  margin-bottom: 3.3em;
+}
+
+.email {
+  font-size: var(--sm);
+  font-weight: 300 !important;
+}
+
+.sign-out {
+  font-size: var(--sm);
+  color: var(--hospital-green) !important;
+}
+
 .login {
   width: 100%;
   min-height: 100vh;
