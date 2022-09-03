@@ -1,0 +1,30 @@
+.product-detail {
+    width: 360px;
+    padding: 24px;
+    box-sizing: border-box;
+    position: relative;
+
+    @media (max-width: 640px) {
+        width: 100%;
+        margin: 1.5em 2em;
+    }
+}
+
+.title-container {
+    align-items: center;
+    margin-bottom: 1.6em;
+
+    img {
+        transform: rotate(180deg);
+        margin-right: 1.4em;
+    }
+
+    .title {
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.shopping-cart-container .shopping-cart {
+    padding-right: 0.5em;
+}

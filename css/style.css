@@ -446,6 +446,36 @@ nav {
   justify-content: center;
 }
 
+.product-detail {
+  width: 360px;
+  padding: 24px;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 640px) {
+  .product-detail {
+    width: 100%;
+    margin: 1.5em 2em;
+  }
+}
+
+.title-container {
+  align-items: center;
+  margin-bottom: 1.6em;
+}
+.title-container img {
+  transform: rotate(180deg);
+  margin-right: 1.4em;
+}
+.title-container .title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.shopping-cart-container .shopping-cart {
+  padding-right: 0.5em;
+}
+
 .cards-container {
   --card-size: 240px;
   grid-template-columns: repeat(auto-fill, var(--card-size));
@@ -530,7 +560,7 @@ nav {
 }
 
 .shopping-cart {
-  grid-template-columns: auto 1fr auto 0;
+  grid-template-columns: auto 1fr auto auto;
   gap: 1.6em;
   margin-bottom: 2em;
   align-items: center;
